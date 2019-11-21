@@ -8,4 +8,4 @@ class Customer(models.Model):
     on_delete=models.CASCADE)
 
   def __str__(self):
-    return f'{self.account}'
+    return self.account

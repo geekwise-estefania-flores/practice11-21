@@ -1,5 +1,5 @@
 from django.db import models
-
+from bank.branch.model_branch import Branch
 class Product(models.Model):
   
   product_options = (
@@ -21,4 +21,4 @@ class Product(models.Model):
     primary_key=True)
 
   def __str__(self):
-    return f'{self.bank}'
+    return self.bank
