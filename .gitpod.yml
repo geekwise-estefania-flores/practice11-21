@@ -1,7 +1,7 @@
 ports:
-        - port: 8080
-        - port: 3000
+  - port: 8080
+  - port: 3000
 tasks:
   - command: >
-	        pyenv gloval 3.7.4 &&
-	        pipenv shell
+          pyenv global 3.7.4 &&
+          pipenv shell
