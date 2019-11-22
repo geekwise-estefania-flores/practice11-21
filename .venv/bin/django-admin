@@ -1,4 +1,4 @@
-#!/workspace/practice11-21/.venv/bin/python2.7
+#!/workspace/practice11-21/.venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

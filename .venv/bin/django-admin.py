@@ -1,4 +1,4 @@
-#!/workspace/practice11-21/.venv/bin/python2.7
+#!/workspace/practice11-21/.venv/bin/python
 from django.core import management
 
 if __name__ == "__main__":
